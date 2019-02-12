@@ -1,6 +1,6 @@
 # Training the model
 
-We used keras-retinate module to train our model using transfer learning. The pretrained COCO weights were used and the training was done by freezing the 
+We used keras-retinanet module to train our model using transfer learning. The pretrained COCO weights were used and the training was done by freezing the 
 backbone of the given architecture.
 
 Feature selection was not a problem at all as these models use Deep CNN networks and ROI proposals.
